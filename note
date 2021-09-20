@@ -1,0 +1,21 @@
+Whe JSON Web Token
+
+- JWT a good choice to be passed into HTML and HTTP env due to it smaller footprint
+- can be signed using shared secret and public key.
+- easier to work with JWT as JSON as common in most programming.
+- suitable for implementing authorization in large-scale web app.
+
+JWT Structure
+
+- Header:
+
+  - type of token, e.g: JWT
+  - signing algo: SHA512
+
+- Payload:
+  - provide info about user & other info like token expiry time.
+
+Uses cases:
+
+- Authorization:
+  - user login & each subsequent request will include the JWT allowing the user to access routes, sevice and resources that are permitted with that token.
