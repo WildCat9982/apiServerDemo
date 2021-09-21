@@ -9,6 +9,7 @@
   "author": "Kelvin Lee",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "jsonwebtoken": "^8.5.1",

@@ -3,6 +3,7 @@ var path = require('path');
 const jwt = require('jsonwebtoken')
 const uuidv4 = require('uuid').v4;
 const moment = require('moment');
+const cors = require('cors');
 
 const app = express()
 
